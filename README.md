@@ -1,5 +1,5 @@
 <div align="center">
-<img width="1145" height="196" alt="hermesbanner" src="https://i.ibb.co/Xrs7njHT/image.png" />
+<img width="1145" height="196" alt="hermesbanner" src="https://raw.githubusercontent.com/samiul14/W8HermesAgentTermux/main/banner.png" />
 
 
 # *☤ SamiulHermesAgentTermux — Hermes Agent for Android (Termux)*
