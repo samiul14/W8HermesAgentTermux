@@ -1,13 +1,13 @@
 #!/data/data/com.termux/files/usr/bin/bash
 #
 # =============================================================
-#   ☤ W8HermesAgentTermux — Uninstaller (Termux)
-#   Tool:  W8HermesAgentTermux
-#   Credit: W8Team / W8SOJIB
-#   Repo:  https://github.com/W8SOJIB/W8HermesAgentTermux
+#   ☤ SamiulHermesAgentTermux — Uninstaller (Termux)
+#   Tool:  SamiulHermesAgentTermux
+#   Original: W8HermesAgentTermux by W8Team / W8SOJIB
+#   Repo:  https://github.com/samiul14/SamiulHermesAgentTermux
 # =============================================================
 #
-# Removes everything W8HermesAgentTermux created:
+# Removes everything SamiulHermesAgentTermux created:
 #   - hermes-agent source + venv inside the proot container
 #   - the ~/.local/bin/hermes launcher
 #   - the PATH line added to ~/.bashrc
@@ -15,7 +15,7 @@
 #   - then deletes this uninstaller + the cloned repo folder
 #
 # Usage in Termux:
-#   curl -fsSL https://raw.githubusercontent.com/W8SOJIB/W8HermesAgentTermux/main/uninstall.sh | bash
+#   curl -fsSL https://raw.githubusercontent.com/samiul14/SamiulHermesAgentTermux/main/uninstall.sh | bash
 #
 
 set -uo pipefail   # NOT -e: we want to tolerate missing files
@@ -32,9 +32,9 @@ export DEBIAN_FRONTEND=noninteractive
 export TZ=UTC
 : >/dev/tty 2>/dev/null && clear 2>/dev/null || true
 echo -e "${CYN}=====================================================${RST}"
-echo -e "${RED}       ☤ W8HermesAgentTermux UNINSTALLER ☤"
+echo -e "${RED}       ☤ SamiulHermesAgentTermux UNINSTALLER ☤"
 echo -e "${CYN}=====================================================${RST}"
-echo -e "${GRN}   Tool: W8HermesAgentTermux | Credit: W8Team/W8SOJIB"
+echo -e "${GRN}   Tool: SamiulHermesAgentTermux | by Samiul Islam"
 echo -e "${CYN}=====================================================${RST}"
 echo ""
 
@@ -114,7 +114,7 @@ rm -f "$0" 2>/dev/null || true
 
 echo ""
 echo -e "${GRN}=====================================================${RST}"
-echo -e "${GRN}    ✅ W8HermesAgentTermux uninstalled successfully!"
+echo -e "${GRN}    ✅ SamiulHermesAgentTermux uninstalled successfully!"
 echo -e "${GRN}=====================================================${RST}"
 echo ""
 echo -e "${CYN}Hermes Agent removed. Termux itself is untouched.${RST}"

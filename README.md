@@ -2,19 +2,19 @@
 <img width="1145" height="196" alt="hermesbanner" src="https://i.ibb.co/Xrs7njHT/image.png" />
 
 
-# *☤ W8HermesAgentTermux — Hermes Agent for Android (Termux)*
+# *☤ SamiulHermesAgentTermux — Hermes Agent for Android (Termux)*
 
 ### *Run a Self-Evolving AI Assistant on Your Phone*
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-9146ff.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 [![Termux](https://img.shields.io/badge/Termux-Android-ff6b6b.svg?style=for-the-badge)](https://termux.com/)
 [![Version](https://img.shields.io/badge/version-v0.10.0-4ecdc4.svg?style=for-the-badge)](https://github.com/NousResearch/hermes-agent)
-[![Credit](https://img.shields.io/badge/Credit-W8Team%2FW8SOJIB-ffd93d.svg?style=for-the-badge)](https://github.com/NousResearch/hermes-agent)
+[![Credit](https://img.shields.io/badge/Credit-Samiul_Islam-ffd93d.svg?style=for-the-badge)](https://github.com/samiul14)
 
 **Transform your Android device into a powerful, learning AI assistant**
 
 <h3 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2800&pause=500&color=9146FF&center=true&vCenter=true&multiline=false&width=520&height=40&lines=W8HermesAgentTermux;%E2%98%A4+Hermes+Agent+for+Android;Self-evolving+AI+in+your+pocket;W8Team+%2F+W8SOJIB" alt="Typing animation" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2800&pause=500&color=9146FF&center=true&vCenter=true&multiline=false&width=520&height=40&lines=SamiulHermesAgentTermux;%E2%98%A4+Hermes+Agent+for+Android;Self-evolving+AI+in+your+pocket;Samiul+Islam" alt="Typing animation" />
 </h3>
 </div>
 
@@ -49,7 +49,7 @@ graph LR
 ### **Copy and paste this command in Termux:**
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/samiul14/W8HermesAgentTermux/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/samiul14/SamiulHermesAgentTermux/main/install.sh | bash
 ```
 
 ## 🛠️ Manual Installation (Recommended)
@@ -116,9 +116,9 @@ proot-distro login ubuntu
 ```
 > If it says `container 'ubuntu' already exists`, just run `proot-distro login ubuntu` — it's already there. ✅
 
-### 7️⃣ Run W8HermesAgentTermux (one command does it all)
+### 7️⃣ Run SamiulHermesAgentTermux (one command does it all)
 ```bash
-curl -fsSL https://raw.githubusercontent.com/samiul14/W8HermesAgentTermux/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/samiul14/SamiulHermesAgentTermux/main/install.sh | bash
 ```
 
 ### 8️⃣ Start Hermes
@@ -178,11 +178,11 @@ hermes gateway
 
 ## 🗑️ Uninstall (delete the tool)
 
-Removes everything W8HermesAgentTermux created: the agent, the launcher, the PATH entry, optionally the proot container, then itself.
+Removes everything SamiulHermesAgentTermux created: the agent, the launcher, the PATH entry, optionally the proot container, then itself.
 
 **One command:**
 ```bash
-curl -fsSL https://raw.githubusercontent.com/samiul14/W8HermesAgentTermux/main/uninstall.sh | bash
+curl -fsSL https://raw.githubusercontent.com/samiul14/SamiulHermesAgentTermux/main/uninstall.sh | bash
 ```
 
 Or, if you cloned the repo:
@@ -269,7 +269,8 @@ ollama run gemma4:31b-cloud
 
 • Open Source Community - For the countless tools and libraries
 
-• [W8SOJIB](https://github.com/NousResearch/hermes-agent) / **W8Team** — Lead Developer of **W8HermesAgentTermux**
+• **Samiul Islam** — Maintainer of this Termux fork
+• [W8SOJIB](https://github.com/W8SOJIB) / **W8Team** — Original W8HermesAgentTermux project
 
 • You - For using and supporting this project! ❤️
 
