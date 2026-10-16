@@ -49,7 +49,7 @@ graph LR
 ### **Copy and paste this command in Termux:**
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/W8SOJIB/W8HermesAgentTermux/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/samiul14/W8HermesAgentTermux/main/install.sh | bash
 ```
 
 ## 🛠️ Manual Installation (Recommended)
@@ -59,7 +59,7 @@ pkg install git
 ```
 ```
 # 1. Clone this repository
-git clone https://github.com/W8SOJIB/W8HermesAgentTermux.git
+git clone https://github.com/samiul14/W8HermesAgentTermux.git
 cd W8HermesAgentTermux
 
 # 2. Make the script executable
@@ -118,7 +118,7 @@ proot-distro login ubuntu
 
 ### 7️⃣ Run W8HermesAgentTermux (one command does it all)
 ```bash
-curl -fsSL https://raw.githubusercontent.com/W8SOJIB/W8HermesAgentTermux/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/samiul14/W8HermesAgentTermux/main/install.sh | bash
 ```
 
 ### 8️⃣ Start Hermes
@@ -182,7 +182,7 @@ Removes everything W8HermesAgentTermux created: the agent, the launcher, the PAT
 
 **One command:**
 ```bash
-curl -fsSL https://raw.githubusercontent.com/W8SOJIB/W8HermesAgentTermux/main/uninstall.sh | bash
+curl -fsSL https://raw.githubusercontent.com/samiul14/W8HermesAgentTermux/main/uninstall.sh | bash
 ```
 
 Or, if you cloned the repo:

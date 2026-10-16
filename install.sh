@@ -4,11 +4,11 @@
 #   ☤ W8HermesAgentTermux — Hermes Agent Installer (Termux)
 #   Tool:  W8HermesAgentTermux
 #   Credit: W8Team / W8SOJIB
-#   Repo:  https://github.com/W8SOJIB/W8HermesAgentTermux
+#   Repo:  https://github.com/samiul14/W8HermesAgentTermux
 # =============================================================
 #
 # Usage in Termux:
-#   curl -fsSL https://raw.githubusercontent.com/W8SOJIB/W8HermesAgentTermux/main/install.sh | bash
+#   curl -fsSL https://raw.githubusercontent.com/samiul14/W8HermesAgentTermux/main/install.sh | bash
 #
 
 set -euo pipefail
@@ -256,4 +256,4 @@ echo -e "${CYN}   proot-distro login $DISTRO${RST}"
 echo -e "${CYN}   cd hermes-agent && source venv/bin/activate${RST}"
 echo -e "${CYN}   hermes${RST}"
 echo ""
-echo -e "${GRN}💡 Need help? Visit: https://github.com/W8SOJIB/W8HermesAgentTermux${RST}"
+echo -e "${GRN}💡 Need help? Visit: https://github.com/samiul14/W8HermesAgentTermux${RST}"
